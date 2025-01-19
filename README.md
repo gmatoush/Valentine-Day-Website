@@ -12,7 +12,7 @@ This Valentine's Day Website is a fun and interactive webpage designed to celebr
 ## How to View the Website
 The website is hosted live using **GitHub Pages**. You can view it by visiting the following URL:
 
-[View Valentine's Day Website](https://YOUR_USERNAME.github.io/REPO_NAME)
+[View Valentine's Day Website](https://gmatoush.github.io/Valentine-Day-Website/)
 
 Replace `YOUR_USERNAME` with your GitHub username and `REPO_NAME` with the repository name. If you’ve already set this up, update this link with the live URL.
 
