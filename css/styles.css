@@ -1,0 +1,114 @@
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-align items horizontally */
+    margin-top: 20px;
+}
+
+.center_photo {
+    display: flex;
+    justify-content: center;
+}
+
+.right_photo {
+    margin-left: auto; /* Push image to the right */
+}
+
+.left_photo {
+    margin-right: auto; /* Push image to the left */
+}
+
+.photo-row {
+    display: flex; /* Enables horizontal alignment */
+    justify-content: space-between; /* Aligns items to the edges */
+    align-items: center; /* Centers items vertically */
+    margin: 20px 0; /* Adds space above and below the row */
+}
+
+#next {
+    background-color: lightblue; /* Light blue background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+    margin-top: 10px; /* Space above */
+    margin-right: 20px; /* Space on the right */
+    margin-bottom: 30px; /* Space below */
+    margin-left: 40px; /* Space on the left */
+}
+
+#next:hover {
+    background-color: darkblue; /* Dark blue on hover */
+}
+
+body {
+    background-color: pink;
+    margin: 0; /* Optional: Removes default margins */
+    padding: 0; /* Optional: Removes default padding */
+    color: white;
+    text-align: center;
+    margin: 20px 40px;
+}
+
+.yes_button {
+    background-color: lightgreen; /* Light green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+    margin-top: 10px; /* Space above */
+    margin-right: 20px; /* Space on the right */
+    margin-bottom: 30px; /* Space below */
+    margin-left: 40px; /* Space on the left */
+}
+
+/* Hover style */
+.yes_button:hover {
+    background-color: darkgreen; /* Dark green background */
+}
+
+.no_button {
+    background-color: lightcoral; /* Light green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+    margin-top: 10px; /* Space above */
+    margin-right: 20px; /* Space on the right */
+    margin-bottom: 30px; /* Space below */
+    margin-left: 40px; /* Space on the left */
+}
+
+/* Hover style */
+.no_button:hover {
+    background-color:red; /* Dark green background */
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.text-below {
+    clear: both; /* Moves the text below floated elements like .right_photo */
+    text-align: center; /* Optional: Center-align the text */
+    margin-top: 20px; /* Adds space above the text */
+}
+
+img[src$="heart.png"] {
+    background: none; /* Ensure no additional background is applied */
+    mix-blend-mode: multiply; /* Blend the image to remove the background effect */
+    filter: brightness(1) contrast(1); /* Optionally adjust visibility */
+}
