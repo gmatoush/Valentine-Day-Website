@@ -27,7 +27,7 @@ Replace `YOUR_USERNAME` with your GitHub username and `REPO_NAME` with the repos
 - **JavaScript Files**:
   - `scripts.js`: Handles any interactive elements and button logic.
 - **Images**:
-  - Includes multiple themed images, such as `heart.png`, `rose.png`, `Gooby_snap.jpeg`, and more.
+  - Includes multiple themed images, such as `heart.png`, `rose.png`, `Gooby_pixel.jpeg`, and more.
 
 ## Setup Instructions
 1. Clone the repository to your local machine:
